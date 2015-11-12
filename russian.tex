@@ -1,9 +1,11 @@
 \documentclass[11pt]{article}
 
 \usepackage{mathtext}         % если нужны русские буквы в формулах (не обязательно)
+\usepackage{type1ec}
 \usepackage[T2A]{fontenc}     % внутренняя T2A кодировка TeX
 \usepackage[russian]{babel}   % включение переносов
 \usepackage[utf8]{inputenc}
+\usepackage{textcomp}
 \usepackage[margin=0.5in]{geometry}
 \pagestyle{empty} % нумерация выкл.
 \addtolength{\textheight}{1.75in}
@@ -12,6 +14,12 @@
 \usepackage{color}
 \usepackage{setspace}
 \definecolor{gray}{rgb}{0.4,0.4,0.4}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setmainfont[Mapping=tex-text]{Calibri}
+
+\usepackage{microtype}
 
 \newif\ifdetailed
 
