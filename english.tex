@@ -12,6 +12,7 @@
 \usepackage{longtable}
 \usepackage{color}
 \usepackage{setspace}
+\usepackage[super]{nth}
 \definecolor{gray}{rgb}{0.4,0.4,0.4}
 
 \newif\ifdetailed
@@ -35,8 +36,8 @@
 
 \begin{document}
 
-\noindent {\sffamily{\Huge{\textbf{   Mikhail Akushsky   }}}}%
-{\small{// {\textbf{9 YEARS OF PROGRAMMING EXPERIENCE}}. }}
+\noindent {\sffamily{\Huge{\textbf{   Michael Akushsky   }}}}%
+{\small{// {\textbf{13 YEARS OF PROGRAMMING EXPERIENCE}}. }}
 % \ifdetailed
 % {\small{// {\textbf{DETAILED VERSION OF CV}}. }}
 % \else
@@ -68,12 +69,12 @@
 \else
 %\item \textbf{Four completed projects for government companies}, with distributed architecture and strong security.
 %\item More than 10 completed outsource and based on the third-party platform (like \textbf{"\href{http://www.emc.com/enterprise-content-management/documentum/index.htm?id=59}{EMC Documentum}"} and \textbf{"\href{http://www.docsvision.com/eng/o-kompanii/}{DocsVision}"}) projects
-\item 9 years of experience in hi-tech industry, software development, and complex systems integration using various languages (Java, Scala, C\# .NET, PHP, SQL, Bash, PowerShell, Python, Ruby, XML, HTML, Javascript, \LaTeX, ...) and technologies (Maven, Spring, Hibernate, jUnit, SOAP, SMPP, XMLdSig, JAXB, JAX-WS, RabbitMQ, Quartz, WPF, ...)
-\item 11 years of experience in *NIX operating systems administration (FreeBSD, OpenBSD, CentOS, Debian, ...), using Gentoo Linux as the main operation system for all tasks, experienced in systemd;
-%\item 3 years of managerial experience as project leader, technical manager, and project manager.
-\item Excellent skills in development, working with legacy code, documentation and testing, both in Java and Microsoft stack.
-\item Excellent skills in systems integration, technical support, data migration, business intelligence/reporting, analysis, design, and software development. Current technical skills in Internet technologies, digital security, distributed software, highload and consequently JVM deep research (memory model, concurrent execution, optimizations).
-\item Excellent skills in cryptography, penetration testing, computer security and malware research. Have experience in WinAPI and Native API, driver development and debug.
+\item 13 years of experience in hi-tech industry, software development, and complex systems integration using various languages (Java, SQL, Bash, PowerShell, Python, Go, XML, Javascript, \LaTeX, ...) and technologies (Maven, Spring/Boot, Hibernate/EclipseLink, jUnit, SOAP, SMPP, XMLdSig, JAXB, JAX-WS, OAuth2, RabbitMQ/ActiveMQ, Kafka, Quartz, Swagger, Elasticsearch stack, ...);
+\item 15 years of experience in *NIX operating systems administration (FreeBSD, OpenBSD, CentOS, Debian, ...), using Gentoo Linux as the main operation system for all tasks, experienced in kernel patching and backporting, routers firmware preparation;
+\item 3 years of experience in container technologies (LXC, Docker, Kubernetes, Helm);
+\item Excellent skills in development, working with legacy code, documentation and testing, as well as systems integration, technical support, data migration, business intelligence/reporting, analysis, design, and software development. Current technical skills in Internet technologies, digital security, distributed software, highload and consequently JVM deep research (memory model, concurrent execution, optimizations);
+\item Excellent skills in cryptography, penetration testing, computer security and malware research. Have experience in WinAPI and Native API, driver development and debug;
+\item Excellent skills in IoT systems construction, communication protocols (ZWave, Zigbee, Wi-Fi, Bluetooth LE/Mesh), smart home systems, security and video streaming;
 \item Excellent analytical/problem-solving skills, self-initiative and fast to learn new skills/technologies, resourceful, committed, and smart-worker.
 %\item Able to coordinate and communicate with a project team. Able to work independently and part of a team.
 \fi
@@ -93,6 +94,20 @@
 
 \begin{longtable} {l | p{0.85\textwidth}}
 
+2016 -- 2020 & {\textbf{"\href{https://www.amdocs.com/}{Amdocs}"}}{\small{\it{}}}\\
+\ifdetailed
+& {\textbf{Software development specialist}} {\color{gray}\small{// Reporting to Software Architect}}
+\begin{itemize}
+\item Spearheaded development of two major projects: "Connected Home" (smart home control system, more than 75000 installations all over the world) and "DOXI" (smart router with intellectual suggestions, security and traffic managing); 
+\item Improved performance of "Connected Home"'s critical invocation point and flows by 50\%;
+\item Developed all parts of projects, which need cryptography, high perfomance and deep investiogation. Created integrations with big amount of \nth{3} party, like Amazon Alexa.
+\item Initiated "DOXI" development from scratch (pure router firmware without containerization and possibility working with smart home protocols) and followed up to the cloud in AWS EKS.
+\end{itemize}
+\\
+\vspace{1em} & Amdocs is a leading software and services provider to communications and media companies of all sizes, accelerating the industry’s dynamic and continuous digital transformation. With a rich set of innovative solutions, long-term business relationships with 350 communications and media providers, and technology and distribution ties to 600 content creators, Amdocs delivers business improvements to drive growth. Amdocs and its 25,000 employees serve customers in over 85 countries. Listed on the NASDAQ Global Select Market, Amdocs had revenue of \$4.0 billion in fiscal 2018. \\
+\newpage
+\fi
+
 2010 -- 2016 & {\textbf{"\href{http://www.it-universe.ru/en/}{IT Universe}"}}{\small{\it{}}}\\
 \ifdetailed
 & {\textbf{Senior fullstack software developer}} {\color{gray}\small{// Reporting to IT Director}}
@@ -105,7 +120,6 @@
 \end{itemize}
 \\
 \vspace{1em} & IT Universe is a research, software development, and integration company. There is a number of projects which are being undertaken in collaboration with large companies and world famous universities. Company has also established close contacts with scientific and technical institutions in Europe, North America, and South-East Asia.  \\
-\newpage
 \fi
 
 \ifdetailed
@@ -146,6 +160,8 @@
 
 \noindent {\textbf{CONFERENCES \&\& CERTIFICATES:}}
 \begin{longtable} {l|p{0.5\textwidth}|p{0.2\textwidth}|l}
+2020    & JPoint     & JUG Ru Group   & --\\
+2019    & AWS Summit 2019     & Amazon  & --\\
 2016    & Jenkins User Conference 2016     & JFrog  & --\\
 2016    & Tel Ran                & --      & --\\
 2015    & Highload++ 2015        & Ontico  & --\\
@@ -157,7 +173,7 @@
 \fi
 
 \noindent My LinkedIn -- \href{https://www.linkedin.com/in/akushsky}{https://www.linkedin.com/in/akushsky} \\ \\
-\noindent Languages -- English (fluent), Hebrew (basic) and Russian (native)
+\noindent Languages -- English (fluent), Hebrew (intermediate) and Russian (native)
 %\noindent My Publications -- \href{https://habrahabr.ru/users/namelles_one/topics/}{https://habrahabr.ru/users/namelles\_one/topics/} (rus)
 
 \end{document}             % End of document.
